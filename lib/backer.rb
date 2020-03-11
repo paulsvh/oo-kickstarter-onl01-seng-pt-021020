@@ -8,6 +8,7 @@ class Backer
   end
 
   def back_project(project) #takes in a project instance (and project name) and adds the backer to its @backed_projects attribute.
+    @backed_projects << project
   end
 
 
